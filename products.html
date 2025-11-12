@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EJ Luxe - Products</title>
+    <link rel="stylesheet" href="styles/products.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="left-nav">
+                <img src="images/ejl logo real.png" alt="EJ Luxe Logo">
+                <p>EJ Luxe <br><span>wear your mood, feel the luxe <i class="fa-solid fa-crown"></i></span></p>
+            </div>
+            <div class="menu-toggle" id="mobile-menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+            <div class="right-nav">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="products.html" class="active">Products</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="products-hero">
+        <h1>Our Premium Collection</h1>
+        <p>Discover fashion that speaks to your soul</p>
+    </div>
+
+    <div class="products-container">
+        <div class="products-grid">
+            <div class="product-card">
+                <div class="product-image">
+                    <img src="images/IMG-20251104-WA0079.jpg" alt="Posithief T-Shirt">
+                </div>
+                <div class="product-info">
+                    <h3>POSITHIEF T-SHIRT</h3>
+                    <p class="price">₦24,999</p>
+                    <div class="product-buttons">
+                        <button class="add-to-cart-btn" onclick="addToCart('POSITHIEF T-SHIRT', '24999')">
+                            <i class="fa-solid fa-cart-plus"></i> Add to Cart
+                        </button>
+                        <a href="https://wa.me/2347012357572?text=Hi%2C%20I%20want%20to%20order%20POSITHIEF%20T-SHIRT%20-%20%E2%82%A624%2C999"
+                            target="_blank">
+                            <button class="shop-now-btn">
+                                <i class="fa-solid fa-shopping-bag"></i> Shop Now
+                            </button>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="product-card">
+                <div class="product-image">
+                    <img src="images/t8.jpg.jpg" alt="Posithief Snapback">
+                </div>
+                <div class="product-info">
+                    <h3>POSITHIEF SNAPBACK</h3>
+                    <p class="price">₦14,999</p>
+                    <div class="product-buttons">
+                        <button class="add-to-cart-btn" onclick="addToCart('POSITHIEF SNAPBACK', '14999')">
+                            <i class="fa-solid fa-cart-plus"></i> Add to Cart
+                        </button>
+                        <a href="https://wa.me/2347012357572?text=Hi%2C%20I%20want%20to%20order%20POSITHIEF%20SNAPBACK%20-%20%E2%82%A614%2C999"
+                            target="_blank">
+                            <button class="shop-now-btn">
+                                <i class="fa-solid fa-shopping-bag"></i> Shop Now
+                            </button>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="product-card">
+                <div class="product-image">
+                    <img src="images/t12.jpg" alt="Posithief Trucker Cap">
+                </div>
+                <div class="product-info">
+                    <h3>POSITHIEF TRUCKER CAP</h3>
+                    <p class="price">₦9,999</p>
+                    <div class="product-buttons">
+                        <button class="add-to-cart-btn" onclick="addToCart('POSITHIEF TRUCKER CAP', '9999')">
+                            <i class="fa-solid fa-cart-plus"></i> Add to Cart
+                        </button>
+                        <a href="https://wa.me/2347012357572?text=Hi%2C%20I%20want%20to%20order%20POSITHIEF%20TRUCKER%20CAP%20-%20%E2%82%A69%2C999"
+                            target="_blank">
+                            <button class="shop-now-btn">
+                                <i class="fa-solid fa-shopping-bag"></i> Shop Now
+                            </button>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="product-card">
+                <div class="product-image">
+                    <img src="images/t13.jpg" alt="Posithief Full Stone Snapback">
+                </div>
+                <div class="product-info">
+                    <h3>POSITHIEF FULL STONE SNAPBACK</h3>
+                    <p class="price">₦16,999</p>
+                    <div class="product-buttons">
+                        <button class="add-to-cart-btn" onclick="addToCart('POSITHIEF FULL STONE SNAPBACK', '16999')">
+                            <i class="fa-solid fa-cart-plus"></i> Add to Cart
+                        </button>
+                        <a href="https://wa.me/2347012357572?text=Hi%2C%20I%20want%20to%20order%20POSITHIEF%20FULL%20STONE%20SNAPBACK%20-%20%E2%82%A616%2C999"
+                            target="_blank">
+                            <button class="shop-now-btn">
+                                <i class="fa-solid fa-shopping-bag"></i> Shop Now
+                            </button>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="cart-notification" id="cartNotification">
+        <i class="fa-solid fa-check-circle"></i>
+        <span id="cartMessage">Item added to cart!</span>
+    </div>
+
+    <footer class="footer">
+        <p>&copy; 2025 EJ Luxe. All rights reserved.</p>
+        <p><a href="privacy.html">Privacy Policy</a> | <a href="terms.html">Terms of Service</a></p>
+        <p>Designed by Adebayo ❤️</p>
+    </footer>
+
+    <a href="https://wa.me/2347012357572?text=Hi%2C%20I%20messaged%20you%20from%20your%20website"
+        class="whatsapp-button" target="_blank">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+
+    <script src="scripts/main.js"></script>
+</body>
+
+</html>
