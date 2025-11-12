@@ -27,6 +27,8 @@
                     <li><a href="about.html">About</a></li>
                     <li><a href="products.html" class="active">Products</a></li>
                     <li><a href="contact.html">Contact</a></li>
+                    <li><a href="cart.html"><i class="fa-solid fa-cart-shopping"></i> Cart <span class="cart-count"
+                                id="cartCount">0</span></a></li>
                 </ul>
             </div>
         </div>
@@ -47,9 +49,17 @@
                     <h3>POSITHIEF T-SHIRT</h3>
                     <p class="price">₦24,999</p>
                     <div class="product-buttons">
-                        <button class="add-to-cart-btn" onclick="addToCart('POSITHIEF T-SHIRT', '24999')">
-                            <i class="fa-solid fa-cart-plus"></i> Add to Cart
-                        </button>
+                        <div class="button-row">
+                            <a href="product-detail-1.html">
+                                <button class="view-details-btn">
+                                    <i class="fa-solid fa-eye"></i> View Details
+                                </button>
+                            </a>
+                            <button class="add-to-cart-btn"
+                                onclick="addToCart('POSITHIEF T-SHIRT', '24999', 'images/IMG-20251104-WA0079.jpg')">
+                                <i class="fa-solid fa-cart-plus"></i> Add to Cart
+                            </button>
+                        </div>
                         <a href="https://wa.me/2347012357572?text=Hi%2C%20I%20want%20to%20order%20POSITHIEF%20T-SHIRT%20-%20%E2%82%A624%2C999"
                             target="_blank">
                             <button class="shop-now-btn">
@@ -68,9 +78,17 @@
                     <h3>POSITHIEF SNAPBACK</h3>
                     <p class="price">₦14,999</p>
                     <div class="product-buttons">
-                        <button class="add-to-cart-btn" onclick="addToCart('POSITHIEF SNAPBACK', '14999')">
-                            <i class="fa-solid fa-cart-plus"></i> Add to Cart
-                        </button>
+                        <div class="button-row">
+                            <a href="product-detail-2.html">
+                                <button class="view-details-btn">
+                                    <i class="fa-solid fa-eye"></i> View Details
+                                </button>
+                            </a>
+                            <button class="add-to-cart-btn"
+                                onclick="addToCart('POSITHIEF SNAPBACK', '14999', 'images/t8.jpg.jpg')">
+                                <i class="fa-solid fa-cart-plus"></i> Add to Cart
+                            </button>
+                        </div>
                         <a href="https://wa.me/2347012357572?text=Hi%2C%20I%20want%20to%20order%20POSITHIEF%20SNAPBACK%20-%20%E2%82%A614%2C999"
                             target="_blank">
                             <button class="shop-now-btn">
@@ -89,9 +107,17 @@
                     <h3>POSITHIEF TRUCKER CAP</h3>
                     <p class="price">₦9,999</p>
                     <div class="product-buttons">
-                        <button class="add-to-cart-btn" onclick="addToCart('POSITHIEF TRUCKER CAP', '9999')">
-                            <i class="fa-solid fa-cart-plus"></i> Add to Cart
-                        </button>
+                        <div class="button-row">
+                            <a href="product-detail-3.html">
+                                <button class="view-details-btn">
+                                    <i class="fa-solid fa-eye"></i> View Details
+                                </button>
+                            </a>
+                            <button class="add-to-cart-btn"
+                                onclick="addToCart('POSITHIEF TRUCKER CAP', '9999', 'images/t12.jpg')">
+                                <i class="fa-solid fa-cart-plus"></i> Add to Cart
+                            </button>
+                        </div>
                         <a href="https://wa.me/2347012357572?text=Hi%2C%20I%20want%20to%20order%20POSITHIEF%20TRUCKER%20CAP%20-%20%E2%82%A69%2C999"
                             target="_blank">
                             <button class="shop-now-btn">
@@ -110,9 +136,17 @@
                     <h3>POSITHIEF FULL STONE SNAPBACK</h3>
                     <p class="price">₦16,999</p>
                     <div class="product-buttons">
-                        <button class="add-to-cart-btn" onclick="addToCart('POSITHIEF FULL STONE SNAPBACK', '16999')">
-                            <i class="fa-solid fa-cart-plus"></i> Add to Cart
-                        </button>
+                        <div class="button-row">
+                            <a href="product-detail-4.html">
+                                <button class="view-details-btn">
+                                    <i class="fa-solid fa-eye"></i> View Details
+                                </button>
+                            </a>
+                            <button class="add-to-cart-btn"
+                                onclick="addToCart('POSITHIEF FULL STONE SNAPBACK', '16999', 'images/t13.jpg')">
+                                <i class="fa-solid fa-cart-plus"></i> Add to Cart
+                            </button>
+                        </div>
                         <a href="https://wa.me/2347012357572?text=Hi%2C%20I%20want%20to%20order%20POSITHIEF%20FULL%20STONE%20SNAPBACK%20-%20%E2%82%A616%2C999"
                             target="_blank">
                             <button class="shop-now-btn">
@@ -132,7 +166,7 @@
 
     <footer class="footer">
         <p>&copy; 2025 EJ Luxe. All rights reserved.</p>
-        <p><a href="privacy.html">Privacy Policy</a> | <a href="terms.html">Terms of Service</a></p>
+        <p><a href="index.html">Privacy Policy</a> | <a href="index.html">Terms of Service</a></p>
         <p>Designed by Adebayo ❤️</p>
     </footer>
 
@@ -141,7 +175,7 @@
         <i class="fab fa-whatsapp"></i>
     </a>
 
-    <script src="script/main.js"></script>
+    <script src="scripts/main.js"></script>
 </body>
 
 </html>

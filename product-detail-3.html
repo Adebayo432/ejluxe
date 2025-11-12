@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EJ Luxe - Posithief Trucker Cap</title>
+    <link rel="stylesheet" href="styles/product-detail.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="left-nav">
+                <img src="images/ejl logo real.png" alt="EJ Luxe Logo">
+                <p>EJ Luxe <br><span>wear your mood, feel the luxe <i class="fa-solid fa-crown"></i></span></p>
+            </div>
+            <div class="menu-toggle" id="mobile-menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+            <div class="right-nav">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="products.html">Products</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="cart.html"><i class="fa-solid fa-cart-shopping"></i> Cart <span class="cart-count"
+                                id="cartCount">0</span></a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="product-detail-container">
+        <div class="product-images">
+            <div class="main-image">
+                <img src="images/t12.jpg" alt="Posithief Trucker Cap" id="mainImage">
+            </div>
+            <div class="thumbnail-images">
+                <img src="images/t12.jpg" alt="View 1" class="thumbnail active" onclick="changeImage(this)">
+                <!-- Add more thumbnail images below - You can add your own images -->
+                <div class="thumbnail-placeholder">
+                    <img src="images/t11.jpg" alt="" class="thumbnail " onclick="changeImage(this)">
+                </div>
+                <div class="thumbnail-placeholder">
+                    <img src="images/t17.jpg" alt="" class="thumbnail " onclick="changeImage(this)">
+                </div>
+                <div class="thumbnail-placeholder">
+                    <img src="images/t9.jpg" alt="" class="thumbnail " onclick="changeImage(this)">
+                </div>
+            </div>
+        </div>
+
+        <div class="product-details">
+            <a href="products.html" class="back-link"><i class="fa-solid fa-arrow-left"></i> Back to Products</a>
+            <h1>POSITHIEF TRUCKER CAP</h1>
+            <p class="price">₦9,999</p>
+
+            <div class="product-description">
+                <h3>Description</h3>
+                <p>Stay cool and stylish with the Posithief Trucker Cap. Featuring a classic mesh back design for
+                    maximum breathability and comfort, this cap is perfect for everyday wear.</p>
+
+                <h4>Features:</h4>
+                <ul>
+                    <li>Breathable mesh back panels</li>
+                    <li>Foam front panel with Posithief logo</li>
+                    <li>Adjustable snapback closure</li>
+                    <li>Curved brim for classic look</li>
+                    <li>Lightweight and comfortable</li>
+                    <li>One size fits most</li>
+                    <li>Perfect for outdoor activities and casual wear</li>
+                </ul>
+
+                <h4>Material:</h4>
+                <ul>
+                    <li>Front: 100% Polyester foam</li>
+                    <li>Back: Breathable mesh</li>
+                    <li>Sweatband: Cotton blend</li>
+                </ul>
+
+                <h4>Care Instructions:</h4>
+                <ul>
+                    <li>Hand wash with mild detergent</li>
+                    <li>Gently scrub with soft brush if needed</li>
+                    <li>Air dry completely</li>
+                    <li>Do not machine wash or dry</li>
+                    <li>Keep shape while drying</li>
+                </ul>
+            </div>
+
+            <div class="product-actions">
+                <button class="add-to-cart-btn" onclick="addToCart('POSITHIEF TRUCKER CAP', '9999', 'images/t12.jpg')">
+                    <i class="fa-solid fa-cart-plus"></i> Add to Cart
+                </button>
+                <a href="https://wa.me/2347012357572?text=Hi%2C%20I%20want%20to%20order%20POSITHIEF%20TRUCKER%20CAP%20-%20%E2%82%A69%2C999"
+                    target="_blank">
+                    <button class="shop-now-btn">
+                        <i class="fa-solid fa-shopping-bag"></i> Shop Now via WhatsApp
+                    </button>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <div class="cart-notification" id="cartNotification">
+        <i class="fa-solid fa-check-circle"></i>
+        <span id="cartMessage">Item added to cart!</span>
+    </div>
+    <footer class="footer">
+        <p>&copy; 2025 EJ Luxe. All rights reserved.</p>
+        <p><a href="index.html">Privacy Policy</a> | <a href="index.html">Terms of Service</a></p>
+        <p>Designed by Adebayo ❤️</p>
+    </footer>
+    <a href="https://wa.me/2347012357572?text=Hi%2C%20I%20messaged%20you%20from%20your%20website"
+        class="whatsapp-button" target="_blank">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+
+    <script src="scripts/product-detail.js"></script>
+</body>
+
+</html>
