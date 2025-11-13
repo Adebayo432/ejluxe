@@ -136,11 +136,11 @@ function updateCartSummary(cart) {
         subtotal += parseInt(item.price) * item.quantity;
     });
 
-    const delivery = 2000;
-    const total = subtotal + delivery;
+    // const delivery = 2000;
+    const total = subtotal;
 
     document.getElementById('subtotal').textContent = `₦${formatPrice(subtotal)}`;
-    document.getElementById('delivery').textContent = `₦${formatPrice(delivery)}`;
+    // document.getElementById('delivery').textContent = `₦${formatPrice(delivery)}`;
     document.getElementById('total').textContent = `₦${formatPrice(total)}`;
 }
 
@@ -176,7 +176,7 @@ document.getElementById('checkoutBtn')?.addEventListener('click', function () {
 
     message += `Subtotal: ₦${formatPrice(subtotal)}%0A`;
     // message += `Delivery: ₦${formatPrice(delivery)}%0A`;
-    message += `Total: ₦${formatPrice(total)}`;
+    message += `Total: ₦${formatPrice(subtotal)}%0A`;
 
     window.open(`https://wa.me/2347012357572?text=${message}`, '_blank');
 });
