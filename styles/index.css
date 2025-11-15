@@ -273,6 +273,7 @@ body {
     padding: 15px 40px;
     font-size: 1.1rem;
     font-weight: bold;
+    text-decoration: none;
     border-radius: 50px;
     cursor: pointer;
     transition: all 0.3s ease;
@@ -399,6 +400,7 @@ body {
     color: var(--white);
     border: none;
     padding: 15px 40px;
+    text-decoration: none;
     font-size: 1.1rem;
     font-weight: bold;
     border-radius: 50px;

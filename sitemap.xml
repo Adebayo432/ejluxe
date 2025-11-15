@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+    
+    <!-- Homepage -->
+    <url>
+        <loc>https://eternaljoyluxe.com/</loc>
+        <lastmod>2025-01-15</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>1.0</priority>
+        <image:image>
+            <image:loc>https://eternaljoyluxe.com/images/hero-image.jpg</image:loc>
+            <image:title>EJ Luxe Premium Fashion</image:title>
+        </image:image>
+    </url>
+    
+    <!-- About Page -->
+    <url>
+        <loc>https://eternaljoyluxe.com/about.html</loc>
+        <lastmod>2025-01-15</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <!-- Products Page -->
+    <url>
+        <loc>https://eternaljoyluxe.com/products.html</loc>
+        <lastmod>2025-01-15</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.9</priority>
+        <image:image>
+            <image:loc>https://eternaljoyluxe.com/images/IMG-20251104-WA0079.jpg</image:loc>
+            <image:title>Posithief T-Shirt</image:title>
+        </image:image>
+        <image:image>
+            <image:loc>https://eternaljoyluxe.com/images/t8.jpg.jpg</image:loc>
+            <image:title>Posithief Snapback</image:title>
+        </image:image>
+        <image:image>
+            <image:loc>https://eternaljoyluxe.com/images/t12.jpg</image:loc>
+            <image:title>Posithief Trucker Cap</image:title>
+        </image:image>
+        <image:image>
+            <image:loc>https://eternaljoyluxe.com/images/t13.jpg</image:loc>
+            <image:title>Posithief Full Stone Snapback</image:title>
+        </image:image>
+    </url>
+    
+    <!-- Contact Page -->
+    <url>
+        <loc>https://eternaljoyluxe.com/contact.html</loc>
+        <lastmod>2025-01-15</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    
+    <!-- Cart Page -->
+    <url>
+        <loc>https://eternaljoyluxe.com/cart.html</loc>
+        <lastmod>2025-01-15</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    
+    <!-- Product Detail Pages -->
+    <url>
+        <loc>https://eternaljoyluxe.com/product-detail-1.html</loc>
+        <lastmod>2025-01-15</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+        <image:image>
+            <image:loc>https://eternaljoyluxe.com/images/IMG-20251104-WA0079.jpg</image:loc>
+            <image:title>Posithief T-Shirt - Premium Cotton</image:title>
+            <image:caption>Premium 100% cotton t-shirt with Posithief design</image:caption>
+        </image:image>
+    </url>
+    
+    <url>
+        <loc>https://eternaljoyluxe.com/product-detail-2.html</loc>
+        <lastmod>2025-01-15</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+        <image:image>
+            <image:loc>https://eternaljoyluxe.com/images/t8.jpg.jpg</image:loc>
+            <image:title>Posithief Snapback - Adjustable Cap</image:title>
+            <image:caption>Premium snapback cap with embroidered logo</image:caption>
+        </image:image>
+    </url>
+    
+    <url>
+        <loc>https://eternaljoyluxe.com/product-detail-3.html</loc>
+        <lastmod>2025-01-15</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+        <image:image>
+            <image:loc>https://eternaljoyluxe.com/images/t12.jpg</image:loc>
+            <image:title>Posithief Trucker Cap</image:title>
+            <image:caption>Breathable trucker cap with mesh back</image:caption>
+        </image:image>
+    </url>
+    
+    <url>
+        <loc>https://eternaljoyluxe.com/product-detail-4.html</loc>
+        <lastmod>2025-01-15</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+        <image:image>
+            <image:loc>https://eternaljoyluxe.com/images/t13.jpg</image:loc>
+            <image:title>Posithief Full Stone Snapback</image:title>
+            <image:caption>Premium stone wash snapback cap</image:caption>
+        </image:image>
+    </url>
+    
+</urlset>

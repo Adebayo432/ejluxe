@@ -432,6 +432,7 @@ body {
     border: none;
     padding: 15px 30px;
     font-size: 1.1rem;
+    text-decoration: none;
     font-weight: bold;
     border-radius: 50px;
     cursor: pointer;
@@ -511,6 +512,7 @@ body {
     background: var(--white);
     color: var(--primary-blue);
     border: 2px solid var(--primary-blue);
+    text-decoration: none;
     padding: 12px;
     font-size: 1rem;
     font-weight: bold;
