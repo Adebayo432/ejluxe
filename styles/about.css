@@ -128,7 +128,7 @@ body {
 }
 
 .menu-toggle .bar {
-    width: 25px;
+    width: 35px;
     height: 3px;
     background-color: var(--white);
     transition: all 0.3s ease;
@@ -693,7 +693,7 @@ body {
 
     .right-nav.active {
         max-height: 400px;
-        animation: slideDown 0.3s ease-out;
+        /* animation: slideDown 0.3s ease-out; */
     }
 
     .right-nav ul {
@@ -705,7 +705,7 @@ body {
     .right-nav li {
         padding: 1rem;
         border-bottom: 1px solid rgba(30, 64, 175, 0.1);
-        animation: fadeInLeft 0.3s ease-out;
+        /* animation: fadeInLeft 0.3s ease-out; */
     }
 
     @keyframes fadeInLeft {
