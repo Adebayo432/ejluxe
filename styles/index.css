@@ -102,6 +102,11 @@ body {
 
 }
 
+.left-nav a:hover,
+.left-nav a:active {
+    color: var(--white);
+}
+
 .left-nav img:hover {
     transform: rotate(360deg) scale(1.1);
 }
