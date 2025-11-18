@@ -19,7 +19,7 @@ body {
     background: linear-gradient(135deg, var(--light-blue) 0%, var(--dark-blue) 100%);
     color: var(--dark-gray);
     min-height: 100vh;
-    animation: fadeIn 0.6s ease-in;
+    /* animation: fadeIn 0.6s ease-in; */
 }
 
 @keyframes fadeIn {
@@ -43,7 +43,7 @@ body {
     top: 0;
     z-index: 1000;
     width: 100%;
-    animation: slideDown 0.5s ease-out;
+    /* animation: slideDown 0.5s ease-out; */
 }
 
 @keyframes slideDown {
@@ -72,7 +72,7 @@ body {
     display: flex;
     align-items: center;
     gap: 15px;
-    animation: slideInLeft 0.6s ease-out;
+    /* animation: slideInLeft 0.6s ease-out; */
 }
 
 @keyframes slideInLeft {
@@ -94,6 +94,12 @@ body {
     object-fit: cover;
     border: 2px solid var(--white);
     transition: transform 0.3s ease;
+}
+
+.left-nav a {
+    text-decoration: none;
+    color: inherit;
+
 }
 
 .left-nav img:hover {
@@ -141,10 +147,7 @@ body {
     transform: rotate(45deg) translate(-5px, -6px);
 }
 
-.right-nav {
-    animation: slideInRight 0.6s ease-out;
 
-}
 
 @keyframes slideInRight {
     from {
