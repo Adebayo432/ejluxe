@@ -32,14 +32,15 @@ body {
     }
 }
 
+
 /* Navbar Styles */
 .navbar {
-    /* background: var(--light-blue); */
+    background: var(--light-blue);
     backdrop-filter: blur(10px);
     padding: 1rem 2rem;
     /* box-shadow: 0 2px 20px rgba(0, 0, 0, 0.1); */
     position: sticky;
-    background: linear-gradient(135deg, var(--light-blue) 0%, var(--dark-blue) 100%);
+    /* background: linear-gradient(135deg, var(--light-blue) 0%, var(--dark-blue) 100%); */
     top: 0;
     z-index: 1000;
     width: 100%;
@@ -96,6 +97,17 @@ body {
     transition: transform 0.3s ease;
 }
 
+.left-nav a {
+    text-decoration: none;
+    color: inherit;
+
+}
+
+.left-nav a:hover,
+.left-nav a:active {
+    color: var(--white);
+}
+
 .left-nav img:hover {
     transform: rotate(360deg) scale(1.1);
 }
@@ -141,10 +153,7 @@ body {
     transform: rotate(45deg) translate(-5px, -6px);
 }
 
-/* .right-nav {
-    animation: slideInRight 0.6s ease-out;
 
-} */
 
 @keyframes slideInRight {
     from {
@@ -168,10 +177,12 @@ body {
 @media (max-width: 670px) {
     .right-nav ul {
         background: linear-gradient(135deg, var(--light-blue) 0%, var(--dark-blue) 100%);
+        align-items: end;
+
+        animation: fadeIn 1s ease-in-out;
     }
 
 }
-
 
 
 .right-nav a {
@@ -181,6 +192,7 @@ body {
     font-size: 1rem;
     transition: all 0.3s ease;
     position: relative;
+
 }
 
 .right-nav a::after {
@@ -596,6 +608,7 @@ body {
 }
 
 
+
 /* WhatsApp Button */
 .whatsapp-button {
     position: fixed;
@@ -603,7 +616,7 @@ body {
     right: 30px;
     width: 60px;
     height: 60px;
-    background: var(--primary-blue);
+    background: rgb(6, 241, 6);
     border-radius: 50%;
     display: flex;
     align-items: center;
@@ -612,14 +625,14 @@ body {
     color: var(--white);
     box-shadow: 0 5px 20px rgba(30, 64, 175, 0.5);
     z-index: 999;
+    text-decoration: none;
     transition: all 0.3s ease;
     animation: pulse 2s infinite;
 }
 
 .whatsapp-button:hover {
     transform: scale(1.1) rotate(360deg);
-    box-shadow: 0 8px 30px rgba(30, 64, 175, 0.7);
-    background: var(--dark-blue);
+
 }
 
 /* Tablet View */

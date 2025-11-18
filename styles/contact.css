@@ -35,12 +35,12 @@ body {
 
 /* Navbar Styles */
 .navbar {
-    /* background: var(--light-blue); */
+    background: var(--light-blue);
     backdrop-filter: blur(10px);
     padding: 1rem 2rem;
     /* box-shadow: 0 2px 20px rgba(0, 0, 0, 0.1); */
     position: sticky;
-    background: linear-gradient(135deg, var(--light-blue) 0%, var(--dark-blue) 100%);
+    /* background: linear-gradient(135deg, var(--light-blue) 0%, var(--dark-blue) 100%); */
     top: 0;
     z-index: 1000;
     width: 100%;
@@ -101,6 +101,11 @@ body {
     text-decoration: none;
     color: inherit;
 
+}
+
+.left-nav a:hover,
+.left-nav a:active {
+    color: var(--white);
 }
 
 .left-nav img:hover {
@@ -172,10 +177,12 @@ body {
 @media (max-width: 670px) {
     .right-nav ul {
         background: linear-gradient(135deg, var(--light-blue) 0%, var(--dark-blue) 100%);
+        align-items: end;
+
+        animation: fadeIn 1s ease-in-out;
     }
 
 }
-
 
 
 .right-nav a {
@@ -185,6 +192,7 @@ body {
     font-size: 1rem;
     transition: all 0.3s ease;
     position: relative;
+
 }
 
 .right-nav a::after {
@@ -234,72 +242,13 @@ body {
     }
 }
 
-
-/* Contact Hero */
+/* contact hero */
 .contact-hero {
     background: linear-gradient(135deg, var(--light-blue) 0%, var(--dark-blue) 100%);
     color: var(--white);
     text-align: center;
-    padding: 5rem 2rem;
-    animation: fadeInDown 0.8s ease-out;
-}
-
-@keyframes fadeInDown {
-    from {
-        opacity: 0;
-        transform: translateY(-30px);
-    }
-
-    to {
-        opacity: 1;
-        transform: translateY(0);
-    }
-}
-
-.contact-hero h1 {
-    font-size: 3.5rem;
-    margin-bottom: 1rem;
-    animation: zoomIn 0.8s ease-out;
-}
-
-@keyframes zoomIn {
-    from {
-        opacity: 0;
-        transform: scale(0.8);
-    }
-
-    to {
-        opacity: 1;
-        transform: scale(1);
-    }
-}
-
-.contact-hero p {
-    font-size: 1.5rem;
-    opacity: 0.95;
-    animation: fadeInUp 0.8s ease-out 0.2s both;
-}
-
-@keyframes fadeInUp {
-    from {
-        opacity: 0;
-        transform: translateY(30px);
-    }
-
-    to {
-        opacity: 1;
-        transform: translateY(0);
-    }
-}
-
-/* Contact Container */
-.contact-container {
-    max-width: 1400px;
-    margin: 0 auto;
     padding: 4rem 2rem;
-    display: grid;
-    grid-template-columns: 1fr 1.2fr;
-    gap: 3rem;
+    animation: fadeIn 1s ease-out;
 }
 
 /* Contact Info */
@@ -638,6 +587,7 @@ body {
 }
 
 
+
 /* WhatsApp Button */
 .whatsapp-button {
     position: fixed;
@@ -645,7 +595,7 @@ body {
     right: 30px;
     width: 60px;
     height: 60px;
-    background: var(--primary-blue);
+    background: rgb(6, 241, 6);
     border-radius: 50%;
     display: flex;
     align-items: center;
@@ -654,14 +604,14 @@ body {
     color: var(--white);
     box-shadow: 0 5px 20px rgba(30, 64, 175, 0.5);
     z-index: 999;
+    text-decoration: none;
     transition: all 0.3s ease;
     animation: pulse 2s infinite;
 }
 
 .whatsapp-button:hover {
     transform: scale(1.1) rotate(360deg);
-    box-shadow: 0 8px 30px rgba(30, 64, 175, 0.7);
-    background: var(--dark-blue);
+
 }
 
 /* Tablet View */
