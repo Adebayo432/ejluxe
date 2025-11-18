@@ -514,11 +514,32 @@ body {
 
 /* Footer */
 .footer {
-    background: var(--black);
+    background: linear-gradient(135deg, var(--primary-blue) 0%, var(--dark-blue) 100%);
+
     color: var(--white);
-    text-align: center;
     padding: 2rem;
+    font-weight: 500;
     animation: fadeIn 1s ease-out;
+}
+
+.footer div {
+
+    display: flex;
+    justify-content: space-a;
+}
+
+#foo-div {
+    display: flex;
+
+
+    flex-direction: column;
+
+}
+
+#foo-div2 {
+    display: flex;
+    flex-direction: column;
+    margin-left: 70%;
 }
 
 .footer p {
@@ -526,7 +547,7 @@ body {
 }
 
 .footer a {
-    color: var(--light-blue);
+    color: var(--black);
     text-decoration: none;
     transition: color 0.3s ease;
 }
@@ -535,6 +556,51 @@ body {
     color: var(--white);
     text-decoration: underline;
 }
+
+#ppp {
+    margin-left: 40%;
+}
+
+@media (max-width: 768px) {
+
+    .footer div {
+
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+
+    }
+
+    #foo-div {
+        display: flex;
+        margin-bottom: 1rem;
+
+        flex-direction: column;
+
+    }
+
+    #ppp {
+        margin-left: 0;
+    }
+
+    #foo-div2 {
+        display: flex;
+        flex-direction: column;
+        margin-left: 0;
+        margin-bottom: 1rem;
+    }
+
+    .footer p {
+        margin: 0.5rem 0;
+    }
+
+    .footer a {
+        color: var(--black);
+        text-decoration: none;
+        transition: color 0.3s ease;
+    }
+}
+
 
 /* WhatsApp Button */
 .whatsapp-button {
