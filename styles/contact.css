@@ -180,13 +180,13 @@ body {
 @media (max-width: 670px) {
     .right-nav ul {
         background: linear-gradient(135deg, var(--light-blue) 0%, var(--dark-blue) 100%);
-        align-items: center;
-        width: 40%;
+        align-items: end;
+        /* width: 40%; */
         margin-top: -1rem;
-        margin-inline: 40%;
-        padding: 0rem;
-
-        border-radius: 30px;
+        /* margin-left: 60%; */
+        padding: 0rem 1rem 1rem 1rem;
+        /* border-bottom-right-radius: 80px; */
+        border-bottom-left-radius: 80px;
         box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
     }
 
@@ -209,8 +209,10 @@ body {
 }
 
 .right-nav.active {
-
-    background-color: transparent;
+    width: 40%;
+    border-bottom-left-radius: 80px;
+    margin-left: 60%;
+    background-color: var(--light-blue);
     transition: 0.8s ease-in-out;
     animation: fadeIn 0.5s ease-out;
 }
