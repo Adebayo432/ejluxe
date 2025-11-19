@@ -44,6 +44,7 @@ body {
     top: 0;
     z-index: 1000;
     width: 100%;
+
     /* animation: slideDown 0.5s ease-out; */
 }
 
@@ -138,9 +139,11 @@ body {
     height: 3px;
     background-color: var(--white);
     transition: all 0.3s ease;
+
 }
 
 .menu-toggle.active .bar:nth-child(1) {
+
 
     transform: rotate(-45deg) translate(-5px, 6px);
 }
@@ -177,13 +180,23 @@ body {
 @media (max-width: 670px) {
     .right-nav ul {
         background: linear-gradient(135deg, var(--light-blue) 0%, var(--dark-blue) 100%);
-        align-items: end;
+        align-items: center;
+        width: 40%;
+        margin-top: -1rem;
+        margin-inline: 40%;
+        padding: 0rem;
 
-        animation: fadeIn 1s ease-in-out;
+        border-radius: 30px;
+        box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
     }
 
 }
 
+.right-nav li {
+    padding: 0;
+    transition: all 2s ease;
+
+}
 
 .right-nav a {
     text-decoration: none;
@@ -194,6 +207,16 @@ body {
     position: relative;
 
 }
+
+.right-nav.active {
+
+    background-color: transparent;
+    transition: 0.8s ease-in-out;
+    animation: fadeIn 0.5s ease-out;
+}
+
+
+
 
 .right-nav a::after {
 
