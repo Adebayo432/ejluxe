@@ -20,6 +20,7 @@ body {
     color: var(--dark-gray);
     min-height: 100vh;
     /* animation: fadeIn 0.6s ease-in; */
+    display: none;
 }
 
 @keyframes fadeIn {
